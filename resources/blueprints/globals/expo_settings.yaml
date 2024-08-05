@@ -1,0 +1,32 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: event_dates
+            field:
+              type: grid
+              display: 'Event Dates'
+              fields:
+                -
+                  handle: expo_date
+                  field:
+                    type: date
+                    display: 'Expo Date'
+                    width: 33
+                -
+                  handle: expo_open_time
+                  field:
+                    default: '09:00'
+                    type: time
+                    display: 'Expo Open Time'
+                    width: 33
+                -
+                  handle: expo_close_time
+                  field:
+                    default: '17:00'
+                    type: time
+                    display: 'Expo Close Time'
+                    width: 33
